@@ -5,6 +5,8 @@ import Loading from './src/views/loading/Loading';
 import Switch from './src/views/switch/Switch';
 import Gallery from './src/views/gallery/Gallery';
 import FlatListEffect from './src/views/flatlisteffect/FlatListEffect';
+import BlurScrollImage from './src/views/blurscrollimages/BlurScrollImage';
+import SwitchItemAnimated from './src/views/switchitemanimated/SwitchItemAnimated';
 
 const App = () => {
   return (
@@ -13,7 +15,9 @@ const App = () => {
       {/* <Loading /> */}
       {/* <Switch /> */}
       {/* <Gallery /> */}
-      <FlatListEffect />
+      {/* <FlatListEffect /> */}
+      {/* <BlurScrollImage /> */}
+      <SwitchItemAnimated />
     </>
   );
 };

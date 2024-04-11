@@ -10,7 +10,7 @@ const PhoneRing = () => {
   return (
     <View style={{backgroundColor: 'white', flex: 1, ...styles.center}}>
       <View style={[styles.dot, styles.center]}>
-        {[...Array(3).keys()].map(index => {
+        {[...Array(10).keys()].map(index => {
           return (
             <MotiView
               key={index}
