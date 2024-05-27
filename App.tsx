@@ -14,6 +14,7 @@ import CountDownTimer from './src/views/countdowntimer/CountDownTimer';
 import GalleryParallax from './src/views/gallerybarallax/GalleryParallax';
 import Onboarding from './src/views/onboardding/OnBoardDing';
 import ProcessBar from './src/views/processbar/ProcessBar';
+import AnimationTabs from './src/views/indicatoraniamtiontabs';
 const App = () => {
   return (
     <GestureHandlerRootView>
@@ -29,7 +30,8 @@ const App = () => {
       {/* <CountDownTimer /> */}
       {/* <GalleryParallax /> */}
       {/* <Onboarding /> */}
-      <ProcessBar />
+      {/* <ProcessBar /> */}
+      <AnimationTabs />
     </GestureHandlerRootView>
   );
 };
